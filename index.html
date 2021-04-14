@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WELL COME TO MY HOME</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+    <script src="js/main.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta charset="utf-8">
+ </head>
+<body>
+	<div class="main" id="main">
+		<div class="header" id="header"><h1>SMART HOME</h1></div>
+		<br>
+		<div class="left" id="left">
+			<button class="btn btn2" id="btn2"><img src="image/nhietdodoam.png" id="nhietdo"></button>
+			<h4>Temp/Hum</h4>
+			<br><br>
+			<button class="btn btn3" id="btn3"><img src="image/bulb.png" id="light"></button>
+			<h4>Light Control</h4>
+		</div>
+		<div class="mid" id="mid"><br><br><button onclick="#" class="btn btn1" id="btn1"><img src="image/home1.jpg" id="home1"><h2>Home</h2></button>
+		</div>
+		<div class="right" id="right">
+			<button class="btn btn4" id="btn4"><img src="image/cacthietbikhac.PNG" id="other"></button>
+			<h4>Other Device</h4>
+			<button class="btn btn5" id="btn5"><img src="image/cua.png" id="cua"></button>
+			<h4>Door Control</h4>
+		</div>
+		<div class="footer1" id="footer1">
+			<h1>Status/Control</h1>
+			<div class="status">status1</div>
+			<div class="status">status2</div>
+			<div class="status">status3</div>
+		</div>
+		<div class="footer2" id="footer2">
+			<h1>Temp/Hum</h1>
+			<div class="status" id="tempC">
+				<h4>Temp:</h4>
+				<input type="text" name="">
+			</div>
+			<div class="status" id="humC">
+				<h4>Hum:</h4>
+				<input type="text" name="">
+			</div>
+			<div class="status" id="Settemp">
+				<h4>Set Temp:</h4>
+				<input type="text" name="">
+			</div>
+			<div class="setseason" id="season">
+				<h4>Mode</h4>
+				<button><img src="">spring</button>
+				<button><img src="">summer</button>
+				<button><img src="">fall</button>
+				<button><img src="">winter</button>
+			</div>
+		</div>
+		<div class="footer3" id="footer3">
+			<h1>Status/Control</h1>
+			<div class="status">status1</div>
+			<div class="status">status2</div>
+			<div class="status">status3</div>
+		</div>
+		<div class="footer4" id="footer4">
+			<h1>Status/Control</h1>
+			<div class="status">status1</div>
+			<div class="status">status2</div>
+			<div class="status">status3</div>
+		</div>
+		<div class="footer5" id="footer5">
+			<h1>Status/Control</h1>
+			<div class="status">status1</div>
+			<div class="status">status2</div>
+			<div class="status">status3</div>
+		</div>
+	</div>
+
+
+
+	<script type="text/javascript">
+	document.getElementById("btn1").addEventListener("click",function ()
+	 {
+
+		var box1= document.getElementById("footer1");
+		var box2= document.getElementById("footer2");
+		var box3= document.getElementById("footer3");
+		var box4= document.getElementById("footer4");
+		var box5= document.getElementById("footer5");
+		box2.style.display="none";
+		box3.style.display="none";
+		box4.style.display="none";
+		box5.style.display="none";
+		if (box1.style.display=="none")
+		 {
+		 	box1.style.display="block";
+		 }
+		 else
+		 {
+		 	box1.style.display="none";
+	 } 
+	})
+	
+		document.getElementById("btn2").addEventListener("click",function ()
+	 {
+
+		var box1= document.getElementById("footer1");
+		var box2= document.getElementById("footer2");
+		var box3= document.getElementById("footer3");
+		var box4= document.getElementById("footer4");
+		var box5= document.getElementById("footer5");
+		box1.style.display="none";
+		box3.style.display="none";
+		box4.style.display="none";
+		box5.style.display="none";
+		if (box2.style.display=="none")
+		 {
+		 	box2.style.display="block";
+		 }
+		 else
+		 {
+		 	box2.style.display="none";
+	 } 
+	})
+
+		document.getElementById("btn3").addEventListener("click",function ()
+	 {
+
+		var box1= document.getElementById("footer1");
+		var box2= document.getElementById("footer2");
+		var box3= document.getElementById("footer3");
+		var box4= document.getElementById("footer4");
+		var box5= document.getElementById("footer5");
+		box2.style.display="none";
+		box1.style.display="none";
+		box4.style.display="none";
+		box5.style.display="none";
+		if (box3.style.display=="none")
+		 {
+		 	box3.style.display="block";
+		 }
+		 else
+		 {
+		 	box3.style.display="none";
+	 } 
+	})
+
+		document.getElementById("btn4").addEventListener("click",function ()
+	 {
+
+		var box1= document.getElementById("footer1");
+		var box2= document.getElementById("footer2");
+		var box3= document.getElementById("footer3");
+		var box4= document.getElementById("footer4");
+		var box5= document.getElementById("footer5");
+		box2.style.display="none";
+		box3.style.display="none";
+		box1.style.display="none";
+		box5.style.display="none";
+		if (box4.style.display=="none")
+		 {
+		 	box4.style.display="block";
+		 }
+		 else
+		 {
+		 	box4.style.display="none";
+	 } 
+	})
+
+		document.getElementById("btn5").addEventListener("click",function ()
+	 {
+
+		var box1= document.getElementById("footer1");
+		var box2= document.getElementById("footer2");
+		var box3= document.getElementById("footer3");
+		var box4= document.getElementById("footer4");
+		var box5= document.getElementById("footer5");
+		box2.style.display="none";
+		box3.style.display="none";
+		box4.style.display="none";
+		box1.style.display="none";
+		if (box5.style.display=="none")
+		 {
+		 	box5.style.display="block";
+		 }
+		 else
+		 {
+		 	box5.style.display="none";
+	 } 
+	})
+	</script>
+</body>
+</html>
