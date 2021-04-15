@@ -12,6 +12,7 @@ body{
 	text-align: center;
 	font-family: monospace;
 	margin-top: 40px;
+	display: none;
 }
 .btn{
 	background: none;
@@ -27,6 +28,7 @@ body{
 	height: 600px;
 	float: left;
 	font-family: monospace;
+	display: none;
 }
 
 #nhietdo{
@@ -70,6 +72,7 @@ body{
 	height: 600px;
 	font-family: monospace;
 	float: left;
+	display: none;
 }
 
 #other{
@@ -110,6 +113,7 @@ body{
 	margin-top: 680px;
 	display: none;
 	padding-left: 10px;
+	background-color: 
 }
 #footer2 h1{
 		text-align: center;
@@ -152,16 +156,37 @@ body{
 	margin-top: 680px;
 	display: none;
 }
-.status{
-	width: 645px;
-	height: 100px;
-}
 
 .footer2 input{
-	width: 200px;
-	height: 70px;
+	width: 150px;
+	height: 60px;
 	font-family: monospace;
 	text-align: center;
+}
+#setup1{
 	float: left;
+	list-style: none;
 	position: absolute;
+	padding-left: 10px;
+}
+#season{
+	margin-right: 20px;
+	float:right;
+	position: relative;
+}
+#tempp{
+	height: 60px;
+	width: 60px;
+}
+#humm{
+	height: 60px;
+	width: 60px;
+} 
+#sett{
+	height: 50px;
+	width: 50px;
+} 
+#settbtn{
+	background-color: #FFFF;
+	border: none;
 }

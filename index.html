@@ -38,23 +38,17 @@
 		<div class="footer2" id="footer2">
 			<h1>Temp/Hum</h1>
 			<div class="status" id="tempC">
-				<h4>Temp:</h4>
-				<input type="text" name="">
-			</div>
-			<div class="status" id="humC">
-				<h4>Hum:</h4>
-				<input type="text" name="">
-			</div>
-			<div class="status" id="Settemp">
-				<h4>Set Temp:</h4>
-				<input type="text" name="">
+				<ul id="setup1">
+					<li><h4>Temp:</h4><img src="image/tempp.jpg" id="tempp"><input type="text" name=""></li>
+					<li><h4>Hum:</h4><img src="image/humm.jpg" id="humm"><input type="text" name=""></li>
+					<li><h4>Set Temp:</h4><button id="settbtn"><img src="image/sett.png" id="sett"></button><input type="text" name=""> </li>
+				</ul>
 			</div>
 			<div class="setseason" id="season">
-				<h4>Mode</h4>
-				<button><img src="">spring</button>
-				<button><img src="">summer</button>
-				<button><img src="">fall</button>
-				<button><img src="">winter</button>
+				<h4>Wind Mode</h4>
+				<button><img src="">Classic</button>
+				<button><img src="">Nature</button>
+				<button><img src="">Sea</button>
 			</div>
 		</div>
 		<div class="footer3" id="footer3">
@@ -88,6 +82,9 @@
 		var box3= document.getElementById("footer3");
 		var box4= document.getElementById("footer4");
 		var box5= document.getElementById("footer5");
+		var box6= document.getElementById("left");
+		var box7= document.getElementById("right");
+		var box8= document.getElementById("header");
 		box2.style.display="none";
 		box3.style.display="none";
 		box4.style.display="none";
@@ -95,10 +92,16 @@
 		if (box1.style.display=="none")
 		 {
 		 	box1.style.display="block";
+		 	box6.style.display="block";
+		 	box7.style.display="block";
+		 	box8.style.display="block";
 		 }
 		 else
 		 {
 		 	box1.style.display="none";
+		 	box6.style.display="none";
+		 	box7.style.display="none";
+		 	box8.style.display="none";
 	 } 
 	})
 	
