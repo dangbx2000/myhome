@@ -12,25 +12,26 @@ body{
 	text-align: center;
 	font-family: monospace;
 	margin-top: 40px;
-	display: none;
 }
 .btn{
 	background: none;
 	border:none;
+	outline: none;
 }
-
 .main h4{
 	text-align: center;
 }
+
 #left{
 
 	width: 150px;
 	height: 600px;
 	float: left;
 	font-family: monospace;
+}
+.left h4{
 	display: none;
 }
-
 #nhietdo{
 	position: relative;
 	height: 150px;
@@ -38,6 +39,7 @@ body{
 	text-align: center;
 	margin-top: 40px;
 	float: right;
+	display: none;
 }
 #light{
 	position: relative;
@@ -46,9 +48,8 @@ body{
 	text-align: center;
 	margin-top: 180px;
 	float: right;
+	display: none;
 }
-
-
 
 #mid{
 	width: 300px;
@@ -93,8 +94,8 @@ body{
 	float: right;
 }
 #footer1{
-	width: 645px;
-	height: 400px;
+	width: 630px;
+	height: 410px;
 	margin-top: 680px;
 	border-radius: 20px;
 	border-style: solid;
@@ -103,9 +104,17 @@ body{
 	font-family: monospace;
 	display: none;
 }
+#footer1 h1{
+		text-align: center;
+		font-family: monospace;
+}
+#footer1 h4{
+	text-align: left;
+	margin-top: 10px;
+}
 #footer2{
-	width: 645px;
-	height: 400px;
+	width: 630px;
+	height: 410px;
 	border-radius: 20px;
 	border-style: solid;
 	border-color: #585858 2px;
@@ -124,8 +133,8 @@ body{
 	margin-top: 10px;
 }
 #footer3{
-	width: 645px;
-	height: 400px;
+	width: 630px;
+	height: 410px;
 	border-radius: 20px;
 	border-style: solid;
 	border-color: #585858 2px;
@@ -133,10 +142,18 @@ body{
 	font-family: monospace;
 	margin-top: 680px;
 	display: none;
+}
+#footer3 h1{
+		text-align: center;
+		font-family: monospace;
+}
+#footer3 h4{
+	text-align: left;
+	margin-top: 10px;
 }
 #footer4{
-	width: 645px;
-	height: 400px;
+	width: 630px;
+	height: 410px;
 	border-radius: 20px;
 	border-style: solid;
 	border-color: #585858 2px;
@@ -144,10 +161,18 @@ body{
 	font-family: monospace;
 	margin-top: 680px;
 	display: none;
+}
+#footer4 h1{
+		text-align: center;
+		font-family: monospace;
+}
+#footer4 h4{
+	text-align: left;
+	margin-top: 10px;
 }
 #footer5{
-	width: 645px;
-	height: 400px;
+	width: 630px;
+	height: 410px;
 	border-radius: 20px;
 	border-style: solid;
 	border-color: #585858 2px;
@@ -156,12 +181,27 @@ body{
 	margin-top: 680px;
 	display: none;
 }
+#footer5 h1{
+		text-align: center;
+		font-family: monospace;
+}
+#footer5 h4{
+	text-align: left;
+	margin-top: 10px;
+}
+
+
 
 .footer2 input{
 	width: 150px;
 	height: 60px;
 	font-family: monospace;
 	text-align: center;
+	margin-left: 10px;
+	font-size: 30px;
+	border-radius: 10px;
+	border-width: 2px;
+	border-style: groove;
 }
 #setup1{
 	float: left;
@@ -189,4 +229,245 @@ body{
 #settbtn{
 	background-color: #FFFF;
 	border: none;
+}
+#classicWindmode{
+	height: 120px;
+	width: 125px;
+}
+#natureWinmode{
+	height: 120px;
+	width: 125px;
+}
+#naturebtn{
+	background-color: #FFFF;
+}
+#seaWinmode{
+	height: 115px;
+	width: 125px;
+}
+#seabtn{
+	background-color: #FFFF;
+}
+#noneWinmode{
+	height: 80px;
+	width: 80px;
+}
+#nonebtn{
+	background: none;
+	border-style: none;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.constainer{
+	position: absolute;
+	height: 80px;
+}
+.status3{
+	width: 600px;
+	height: 100px;
+	margin-left: 20px;
+}
+.toggle-btn{
+	width: 180px;
+	height: 75px;
+	background: #CCCCCC;
+	border-radius: 30px;
+	padding: 5px;
+	transition: all 500ms ease-in-out;
+}
+.toggle-btn > .inner-circle{
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	background-color: #FF9933;
+}
+.toggle-btn.active{
+	background: #66FFFF;
+}
+
+.toggle-btn.active > .inner-circle{
+	margin-left: 100px;
+}
+#bulboffimg1{
+	margin-top: 10px;
+	width: 100px;
+	height: 100px;
+	float: right;
+	position: relative;
+}
+
+#bulbonimg1{
+	margin-top: 10px;
+	width: 100px;
+	height: 100px;
+	float: right;
+	display: none;
+	position: relative;
+}
+#bulboffimg2{
+	margin-top: 10px;
+	width: 100px;
+	height: 100px;
+	float: right;
+	position: relative;
+}
+
+#bulbonimg2{
+	margin-top: 10px;
+	width: 100px;
+	height: 100px;
+	float: right;
+	display: none;
+	position: relative;
+}
+#bulboffimg3{
+	margin-top: 10px;
+	width: 100px;
+	height: 100px;
+	float: right;
+	position: relative;
+}
+
+#bulbonimg3{
+	margin-top: 10px;
+	width: 100px;
+	height: 100px;
+	float: right;
+	display: none;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+.doorctrl{
+	width: 200px;
+	margin-left: 20px;
+	font-family: monospace;
+	float: left;
+}
+
+.statusdoor{
+	width: 280px;
+	float: right;
+	margin-left: 20px;
+	text-align: center;
+}
+.statusdoor>h4{
+	text-align: center;
+}
+
+#unlockbtn1{
+	background: none;
+	border-style: none;
+	float: left;
+}
+#unlock1{
+	width: 60px;
+	height: 60px;
+}
+
+#lockbtn1{
+	background: none;
+	border-style: none;
+	float: right;
+	margin-left: 5px;
+}
+#lock1{
+	width: 60px;
+	height: 60px;
+}
+#unlockbtn2{
+	background: none;
+	border-style: none;
+	float: left;
+}
+#unlock2{
+	width: 60px;
+	height: 60px;
+}
+
+#lockbtn2{
+	background: none;
+	border-style: none;
+	float: right;
+	margin-left: 5px;
+}
+#lock2{
+	width: 60px;
+	height: 60px;
+}
+
+#unlockbtn3{
+	background: none;
+	border-style: none;
+	float: left;
+}
+#unlock3{
+	width: 60px;
+	height: 60px;
+}
+
+#lockbtn3{
+	background: none;
+	border-style: none;
+	float: right;
+	margin-left: 5px;
+}
+#lock3{
+	width: 60px;
+	height: 60px;
+}
+#gateclosestatus{
+	width: 120px;
+	height: 90px;
+	float: left;
+	position: relative;
+}
+#gateopenstatus{
+	width: 120px;
+	height: 90px;
+	float: left;
+	display: none;
+	position: relative;
+}
+#clearf{
+	clear: both;
+}
+#doorclosestatus{
+	width: 100px;
+	height: 90px;
+	float: left;
+	position: relative;
+}
+#dooropenstatus{
+	width: 100px;
+	height: 90px;
+	float: left;
+	display: none;
+	position: relative;
+}
+
+#clearf{
+	clear: both;
+}
+#windowclosestatus{
+	width: 100px;
+	height: 90px;
+	float: left;
+	position: relative;
+}
+#windowopenstatus{
+	margin-top: 5px;
+	width: 100px;
+	height: 99px;
+	float: left;
+	display: none;
+	position: relative;
 }
