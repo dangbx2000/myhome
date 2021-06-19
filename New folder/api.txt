@@ -1,0 +1,37 @@
+//api
+<?php 
+
+require 'connection.php';
+ $connect = new mysqli("localhost","id16723080_root","D@nggD@ngg1234","id16723080_users");
+        // cho phep php luu tieng viet vao data base
+        mysqli_set_charset($connect,"utf8");
+        //kiem tra ket noi co thanh cong hay khong
+        if ($connect->connect_error) {
+            var_dump($connect->connect_error);
+            die();
+        }
+
+ini_set('date.timezone', 'Asia/Ho_Chi_Minh');
+
+$now = new DateTime();
+
+$datenow = $now->format("Y-m-d H:i:s");
+
+    	$volt = $_POST['volt'];
+    	$ampe = $_POST['ampe'];
+    	$temp = $_POST['temp'];
+    	$humd = $_POST['humd'];
+
+	     $query = "INSERT INTO sensor(volt,ampe,temp,humd,datenow) VALUES ('".$volt."','".$ampe."','".$temp."','".$humd."','".$datenow."')";
+        mysqli_query($connect,$query);
+
+		if ($connect->query($query) === TRUE) {
+		    echo json_encode("Ok");
+		} else {
+		    echo "Error: " . $query . "<br>" . $connect->error;
+		}
+	
+		
+
+	$connect->close();
+ ?>
