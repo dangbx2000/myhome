@@ -1,0 +1,29 @@
+.container{
+	margin-top: 30px;
+	width: 250px;
+	height: 450px;
+	margin-right: auto;
+	margin-left: auto;
+	border-style: solid;
+	border-radius: 30px;
+	background-color: #DDDDDD;
+	font-family: monospace;
+}
+.font-control{
+	width: 210px;
+	border-radius: 30px;
+}
+*:focus {
+    outline: 0 !important;
+}
+#btn-defaut1{
+	border-radius: 30px;
+	background-color: #0099FF;
+	text-align: center;
+}
+.container h3{
+	text-align: center;
+}
+body{
+	
+}
