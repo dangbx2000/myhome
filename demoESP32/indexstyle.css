@@ -1,0 +1,41 @@
+.clogout {
+	float: right;
+	background-color: #1c87c9;
+	border: none;
+	color: white;
+	padding: 15px 28px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 3px 2px;
+	cursor: pointer;
+}
+
+.title {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#tbsensor {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin-left: 10%;
+    width: 80%;
+}
+
+#tbsensor td, #tbsensor th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#tbsensor tr:nth-child(even){background-color: #f2f2E2;}
+
+#tbsensor tr:hover {background-color: #eee;}
+
+#tbsensor th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1a75ff;
+    color: white;
+}

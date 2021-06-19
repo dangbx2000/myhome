@@ -1,0 +1,144 @@
+html {
+    font-family: monospace;
+    display: inline-block;
+    text-align: center;
+}
+body{
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 33.3%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: monospace;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 68px;
+}
+
+.switch input {
+    display: none
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #949494;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 52px;
+    width: 52px;
+    left: 8px; bottom: 8px;
+    background-color: #fff;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 68px;
+}
+
+input:checked+.slider {
+    background-color: #008B74;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(52px);
+    -ms-transform: translateX(52px);
+    transform: translateX(52px);
+}
+
+input[type=text], input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+div {
+    text-align: center;
+    border-radius: 30px;
+    background-color: #efefef;
+    padding: 20px;
+}
+.header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ #auto{
+    display: none;
+    position: relative;
+ }
+ #manual{
+    display: none;
+    position: relative;
+ }
+ .btn{
+    width: 100px;
+    height: 50px;
+    border-style: none;
+ }
+ .container{
+    width: 600px;
+    margin-top: 30px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-radius: 60px;
+    background-color: #FFFFFF;
+    font-family: monospace;
+ }
+
+#input1{
+    width: 400px;
+    height: 60px;
+    border-radius: 60px;
+    font-size: 2.5rem;
+}
+#input2{
+    width: 400px;
+    height: 60px;
+    border-radius: 60px;
+    font-size: 2.5rem;
+}
+*:focus {
+    outline: 0 !important;
+}
+#btn-defaut1{
+    border-radius: 30px;
+    background-color: #0099FF;
+    text-align: center;
+    width: 400px;
+    height: 60px;
+    font-size: 3.0rem;
+}
+#btn-defaut2{
+    border-radius: 30px;
+    background-color: #0099FF;
+    text-align: center;
+    width: 400px;
+    height: 60px;
+    font-size: 3.0rem;
+}
+.container h3{
+    text-align: center;
+}
+label{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: monospace;
+}
